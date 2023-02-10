@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hangman-react-typescript/static/css/main.867daa01.css",
+    "main.js": "/hangman-react-typescript/static/js/main.97a0c4f0.js",
+    "static/js/787.20ace30e.chunk.js": "/hangman-react-typescript/static/js/787.20ace30e.chunk.js",
+    "index.html": "/hangman-react-typescript/index.html",
+    "main.867daa01.css.map": "/hangman-react-typescript/static/css/main.867daa01.css.map",
+    "main.97a0c4f0.js.map": "/hangman-react-typescript/static/js/main.97a0c4f0.js.map",
+    "787.20ace30e.chunk.js.map": "/hangman-react-typescript/static/js/787.20ace30e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.867daa01.css",
+    "static/js/main.97a0c4f0.js"
+  ]
+}
