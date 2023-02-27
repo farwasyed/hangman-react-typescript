@@ -2,31 +2,33 @@
 .container {
     position: relative;
     padding: 12px;
+    height: 200px;
 }
 .base {
     height: 50px;
     width: 10px;
-    background: rgb(49, 49, 49);
+    background: gray ;
     position: absolute;
     top: 0;
     right: 0;
 }
 .hangerTop{
     height: 10px;
-    width: 200px;
-    background: rgb(49, 49, 49);
+    width: 180px;
+    background: gray;
     margin-left: 120px;
 }
 
 .hangerPole {
-    height: 400px;
+    height: 200px;
     width: 10px;
-    background-color: rgb(49, 49, 49);
+    background-color: gray;
     margin-left: 120px;
 }
 .hangerBase {
    height: 10px;
-   width: 250px;
-   background-color: rgb(49, 49, 49);
+   width: 180px;
+   background-color: gray;
+   margin-left: 35px;
    
 }

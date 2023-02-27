@@ -16,7 +16,9 @@ function App() {
   const incorrectLetters = guessedLetters.filter(
     letter => !wordToGuess.includes(letter)
   )
-
+  const handleRefresh = () => {
+    window.location.reload();
+  };
   const isLoser = incorrectLetters.length >= 6
   const isWinner = wordToGuess
     .split("")
@@ -66,11 +68,22 @@ function App() {
 
   return (
     <div className={classes.main}>
-    <h2 style={{textAlign:"center", fontFamily:"cursive"}}>Lets Guess!</h2>
+
+    <h2>Lets Guess!</h2>
     <div className={classes.container}>
-      <div style={{ fontSize: "2rem", textAlign: "center", fontFamily:"cursive", padding: "12px"}}>
+      <div >
         {isWinner && "You WON! - Refresh to play again"}
-        {isLoser && "Oh No! - Refresh to try again"}
+        {isLoser && (
+          <div>
+            Oh no!! Let's&nbsp;
+            <button className={classes.btn} onClick={handleRefresh}>
+              Refresh
+            </button>
+            &nbsp;to try again
+          </div>
+        )}
+
+        {/* {isLoser && "Oh No! - Refresh to try again"} */}
       </div>
       <Drawing numberofGuesses={incorrectLetters.length} />
       <Words

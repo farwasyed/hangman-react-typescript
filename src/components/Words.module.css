@@ -1,4 +1,6 @@
-
+.main {
+  height: 100px;
+}
 .letter{
     border-bottom: ".1em solid rgb(49, 49, 49)";
     background-color: antiquewhite;

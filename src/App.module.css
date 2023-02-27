@@ -1,18 +1,41 @@
-.main {
-  background-color: aliceblue;
-  align-content: center;
-  max-width: 100%;
-}
 .container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   margin: 0 auto;
   align-items: center;
-  border: 2px solid black;
+  max-width: 1200px;
+  margin-left: auto;
+  border-radius: 0.5rem;
+  margin-right: auto;
+  background-color: whitesmoke;
+  overflow: auto;
+  box-shadow: 15px 15px 15px lightgray;
 }
 
-.keyboard {
-  align-self:center;
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: 200px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
 }
 
+.btn {
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

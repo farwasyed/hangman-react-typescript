@@ -10,7 +10,7 @@ export function Words({ guessedLetter, wordToGuess, reveal} : WordsProps) {
     // const guessedLetter = ["e"];
 
     return (
-<>
+        <div className={classes.main}>
             <div style={{ 
                         display: "flex", 
                         gap: ".25em",
@@ -29,7 +29,7 @@ export function Words({ guessedLetter, wordToGuess, reveal} : WordsProps) {
                     ))}
 
             </div>
-        </>
+        </div>
     )
         
 }

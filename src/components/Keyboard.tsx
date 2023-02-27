@@ -43,6 +43,7 @@ export function Keyboard({
   disabled = false,
 }: KeyboardProps) {
   return (
+    <div className={classes.main}>
     <div className={classes.keyboard}
     //   style={{
     //     display: "grid",
@@ -67,6 +68,8 @@ export function Keyboard({
           </button>
         )
       })}
+    </div>
+
     </div>
   )
 }
